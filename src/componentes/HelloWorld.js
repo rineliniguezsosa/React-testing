@@ -1,7 +1,7 @@
 
 
-export const HelloWorld = () => {
+export const HelloWorld = ({name}) => {
   return (
-    <div>HelloWorld</div>
+    <div>Hello World {name}</div>
   )
 }
