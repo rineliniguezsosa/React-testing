@@ -8,4 +8,8 @@ describe('Pruebas en con componente HelloWorld.js', () => {
 
         expect(Hello).toBeInTheDocument()
     });
+
+    test('El componente HelloWorld debe de renderizarse pasando la prop name', () => {
+       
+    });
 });
