@@ -10,6 +10,6 @@ describe('Pruebas en con componente HelloWorld.js', () => {
     });
 
     test('El componente HelloWorld debe de renderizarse pasando la prop name', () => {
-       
+        render(<HelloWorld name="Rinel"/>)
     });
 });
