@@ -3,6 +3,6 @@ import { HelloWorld } from '../../componentes/HelloWorld';
 
 describe('Pruebas en con componente HelloWorld.js', () => {
     test('El componente HelloWorld debe de renderizarse correctamente', () => {
-        
+        render(<HelloWorld/>)
     });
 });
