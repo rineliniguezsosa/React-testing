@@ -12,4 +12,8 @@ describe('Pruebas en con componente HelloWorld.js', () => {
         expect(HelloText).toBeTruthy();
         
     });
+
+    test('El componente HelloWorld debe pasar la prop name y renderizarla palabra Hello name', () => {
+        
+    });
 });
