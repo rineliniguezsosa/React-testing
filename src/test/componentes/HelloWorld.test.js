@@ -18,6 +18,6 @@ describe('Pruebas en con componente HelloWorld.js', () => {
 
         expect(screen.getByText('Hello Rinel')).toBeTruthy();
         
-        screen.debug()
+        //screen.debug()
     });
 });
