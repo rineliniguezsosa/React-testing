@@ -7,9 +7,7 @@ describe('Pruebas en con componente HelloWorld.js', () => {
         
         render(<HelloWorld/>)
 
-        const HelloText = screen.getByText('Hello')
-
-        expect(HelloText).toBeTruthy();
+        expect(screen.getByText('Hello')).toBeTruthy();
         
     });
 
