@@ -13,7 +13,7 @@ describe('Pruebas en con componente HelloWorld.js', () => {
         
     });
 
-    test('El componente HelloWorld debe pasar la prop name y renderizarla palabra Hello name', () => {
+    test.only('El componente HelloWorld debe pasar la prop name y renderizarla palabra Hello name', () => {
         render(<HelloWorld name="Rinel"/>)
 
         expect(screen.getByText('Hello Rinel')).toBeTruthy();
