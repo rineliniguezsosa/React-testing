@@ -17,6 +17,7 @@ describe('Pruebas en con componente HelloWorld.js', () => {
         render(<HelloWorld name="Rinel"/>)
 
         expect(screen.getByText('Hello Rinel')).toBeTruthy();
-
+        
+        screen.debug()
     });
 });
