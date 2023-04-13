@@ -11,5 +11,7 @@ describe('pruebas en GetByRole.js', () => {
         const element = screen.getByRole("textbox",{name:'Name'})
 
         expect(element).toBeTruthy();
+
+        const heading1 = screen.getByRole('heading')
     });
 });
