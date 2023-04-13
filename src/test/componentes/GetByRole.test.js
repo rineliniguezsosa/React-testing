@@ -8,6 +8,6 @@ describe('pruebas en GetByRole.js', () => {
 
         render(<GetByRole/>)
 
-        const element = screen.getByRole("textbox")
+        const element = screen.getByRole("textbox",{name:'Name'})
     });
 });
