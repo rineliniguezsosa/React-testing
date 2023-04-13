@@ -9,5 +9,7 @@ describe('pruebas en GetByRole.js', () => {
         render(<GetByRole/>)
 
         const element = screen.getByRole("textbox",{name:'Name'})
+
+        expect(element).toBeTruthy();
     });
 });
