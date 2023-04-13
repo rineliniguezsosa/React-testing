@@ -15,5 +15,7 @@ describe('pruebas en GetByRole.js', () => {
         const heading1 = screen.getByRole('heading',{name:'Job application form'})
 
         expect(heading1).toBeTruthy();
+
+        const Namelement = screen.getByLabelText('Name',{selector:'input'})
     });
 });
