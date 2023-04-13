@@ -23,5 +23,7 @@ describe('pruebas en GetByRole.js', () => {
         const Namelement2 = screen.getByPlaceholderText('Fullname')
 
         expect(Namelement2).toBeTruthy();
+
+        const parragraphelement = screen.getByText('All fields are mandatory')
     });
 });
