@@ -16,7 +16,7 @@ export const GetByRole = () => {
             type="text"
             id="name"
             placeholder="Fullname"
-            value="Vishwas"
+            value="rinel"
             onChange={() => {}}
           />
         </div>
