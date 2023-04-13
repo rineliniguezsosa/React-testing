@@ -17,5 +17,7 @@ describe('pruebas en GetByRole.js', () => {
         expect(heading1).toBeTruthy();
 
         const Namelement = screen.getByLabelText('Name',{selector:'input'})
+
+        expect(Namelement).toBeTruthy();
     });
 });
