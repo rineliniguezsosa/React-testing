@@ -21,5 +21,7 @@ describe('pruebas en GetByRole.js', () => {
         expect(Namelement).toBeTruthy();
 
         const Namelement2 = screen.getByPlaceholderText('Fullname')
+
+        expect(Namelement2).toBeTruthy();
     });
 });
