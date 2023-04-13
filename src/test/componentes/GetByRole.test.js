@@ -12,6 +12,6 @@ describe('pruebas en GetByRole.js', () => {
 
         expect(element).toBeTruthy();
 
-        const heading1 = screen.getByRole('heading')
+        const heading1 = screen.getByRole('heading',{name:'Job application form'})
     });
 });
