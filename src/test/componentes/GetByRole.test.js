@@ -25,5 +25,7 @@ describe('pruebas en GetByRole.js', () => {
         expect(Namelement2).toBeTruthy();
 
         const parragraphelement = screen.getByText('All fields are mandatory')
+
+        expect(parragraphelement).toBeTruthy();
     });
 });
