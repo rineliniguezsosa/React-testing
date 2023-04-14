@@ -33,5 +33,7 @@ describe('pruebas en Aplication.js', () => {
         expect(inputelement).toBeTruthy();
 
         const altelement = screen.getByAltText("a person with a laptop")
+
+        expect(altelement).toBeTruthy();
     });
 });
