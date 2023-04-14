@@ -6,7 +6,7 @@ describe('pruebas en GetByRole.js', () => {
 
     test('debe de renderizar correctamente el componente', () => {
 
-        render(<GetByRole/>)
+        render(<Aplication/>)
 
         const element = screen.getByRole("textbox",{name:'Name'})
 
