@@ -1,5 +1,5 @@
 import { render,screen } from '@testing-library/react';
-import { GetByRole } from "../../componentes/GetByRole";
+import { Aplication } from "../../componentes/Aplication";
 
 
 describe('pruebas en GetByRole.js', () => {
