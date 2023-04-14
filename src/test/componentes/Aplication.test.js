@@ -39,5 +39,7 @@ describe('pruebas en Aplication.js', () => {
         const getelementbytitle = screen.getByTitle('close')
 
         expect(getelementbytitle).toBeTruthy();
+
+        const getelementbydatatestid = screen.getByTestId("custom-element")
     });
 });
