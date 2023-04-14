@@ -31,5 +31,7 @@ describe('pruebas en Aplication.js', () => {
         const inputelement = screen.getByDisplayValue('rinel')
 
         expect(inputelement).toBeTruthy();
+
+        const altelement = screen.getByAltText("a person with a laptop")
     });
 });
