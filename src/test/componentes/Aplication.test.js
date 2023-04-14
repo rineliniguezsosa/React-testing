@@ -37,5 +37,7 @@ describe('pruebas en Aplication.js', () => {
         expect(altelement).toBeTruthy();
 
         const getelementbytitle = screen.getByTitle('close')
+
+        expect(getelementbytitle).toBeTruthy();
     });
 });
