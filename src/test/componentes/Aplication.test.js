@@ -27,5 +27,7 @@ describe('pruebas en Aplication.js', () => {
         const parragraphelement = screen.getByText('All fields are mandatory')
 
         expect(parragraphelement).toBeTruthy();
+
+        const inputelement = screen.getByDisplayValue('rinel')
     });
 });
