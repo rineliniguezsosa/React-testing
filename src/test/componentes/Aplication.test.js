@@ -29,5 +29,7 @@ describe('pruebas en Aplication.js', () => {
         expect(parragraphelement).toBeTruthy();
 
         const inputelement = screen.getByDisplayValue('rinel')
+
+        expect(inputelement).toBeTruthy();
     });
 });
