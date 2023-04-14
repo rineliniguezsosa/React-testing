@@ -41,5 +41,7 @@ describe('pruebas en Aplication.js', () => {
         expect(getelementbytitle).toBeTruthy();
 
         const getelementbydatatestid = screen.getByTestId("custom-element")
+
+        expect(getelementbydatatestid).toBeTruthy();
     });
 });
