@@ -1,6 +1,6 @@
 
 
-export const GetByRole = () => {
+export const Aplication = () => {
   return (
     <>
       <h1>Job application form</h1>
