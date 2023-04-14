@@ -35,5 +35,7 @@ describe('pruebas en Aplication.js', () => {
         const altelement = screen.getByAltText("a person with a laptop")
 
         expect(altelement).toBeTruthy();
+
+        const getelementbytitle = screen.getByTitle('close')
     });
 });
