@@ -2,7 +2,7 @@ import { render,screen } from '@testing-library/react';
 import { Aplication } from "../../componentes/Aplication";
 
 
-describe('pruebas en GetByRole.js', () => {
+describe('pruebas en Aplication.js', () => {
 
     test('debe de renderizar correctamente el componente', () => {
 
