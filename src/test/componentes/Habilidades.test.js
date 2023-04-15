@@ -6,6 +6,7 @@ describe('pruebas en el componente Habilidades.js', () => {
     test('debe de renderizar correctamente', () => {
         render(<Habilidades skills={skills}/>)
         
+        expect(screen.getByRole('list')).toBeTruthy();
     });
 
 });
