@@ -11,6 +11,8 @@ describe('pruebas en el componente Habilidades.js', () => {
 
     test('debe de mostrar la lista de los skills', () => {
         render(<Habilidades skills={skills}/>)
+
+        const listelement = screen.getAllByRole('listitem')
     });
 
 });
