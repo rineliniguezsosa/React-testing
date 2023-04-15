@@ -13,6 +13,8 @@ describe('pruebas en el componente Habilidades.js', () => {
         render(<Habilidades skills={skills}/>)
 
         const listelement = screen.getAllByRole('listitem')
+
+        expect(listelement).toHaveLength(skills.length);
     });
 
 });
