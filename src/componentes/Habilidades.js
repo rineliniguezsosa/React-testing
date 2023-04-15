@@ -1,7 +1,15 @@
 
 
-export const Habilidades = () => {
+export const Habilidades = ({skills}) => {
   return (
-    <div>Habilidades</div>
+    <>
+    <ol>
+        {
+            skills.map(item =>{
+                return <li key={item}>{item}</li>
+            })
+        }
+    </ol>
+    </>
   )
 }
