@@ -9,4 +9,8 @@ describe('pruebas en el componente Habilidades.js', () => {
         expect(screen.getByRole('list')).toBeTruthy();
     });
 
+    test('debe de mostrar la lista de los skills', () => {
+        
+    });
+
 });
