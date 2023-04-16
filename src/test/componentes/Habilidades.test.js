@@ -21,6 +21,8 @@ describe('pruebas en el componente Habilidades.js', () => {
         render(<Habilidades skills={skills}/>)
 
         const btnlogin = screen.getByRole('button',{name:'loggin'})
+
+        expect(btnlogin).toBeTruthy();
         
     });
 
