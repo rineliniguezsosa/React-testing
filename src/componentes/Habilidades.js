@@ -2,6 +2,7 @@ import { useState } from 'react';
 
 
 export const Habilidades = ({skills}) => {
+  const [isloggin, setIsloggin] = useState(false)
   return (
     <>
     <ol>
