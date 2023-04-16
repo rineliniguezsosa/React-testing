@@ -28,6 +28,8 @@ describe('pruebas en el componente Habilidades.js', () => {
 
     test('el botón comienza a aprender no es renderizado', () => {
         render(<Habilidades skills={skills}/>)
+
+        const btnstartlearning = screen.getByRole('button',{name:'comienza a aprender'})
     });
 
 });
