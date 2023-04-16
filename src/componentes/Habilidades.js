@@ -12,6 +12,7 @@ export const Habilidades = ({skills}) => {
             })
         }
     </ol>
+        {isloggin ? <button>comienza a aprender</button>: <button onClick={()=> setIsloggin(true)}>loggin</button>}
     </>
   )
 }
