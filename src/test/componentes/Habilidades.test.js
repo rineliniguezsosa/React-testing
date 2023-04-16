@@ -17,4 +17,8 @@ describe('pruebas en el componente Habilidades.js', () => {
         expect(listelement).toHaveLength(skills.length);
     });
 
+    test('renderiza el loggin button', () => {
+        
+    });
+
 });
