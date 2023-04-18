@@ -3,6 +3,7 @@ import { useState } from 'react';
 
 export const Counter = () => {
   const [cuenta, setCuenta] = useState(0)
+  const [cantidad, setCantidad] = useState(0)
   return (
     <div>
         <h1>{cuenta}</h1>
