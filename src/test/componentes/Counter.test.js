@@ -12,6 +12,7 @@ describe('pruebas en Counter.js', () => {
     });
 
     test('renderiza la cuenta en cero', () => {
-        
+        render(<Counter></Counter>)
+
     });
 });
