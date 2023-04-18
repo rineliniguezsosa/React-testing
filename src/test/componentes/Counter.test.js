@@ -35,5 +35,8 @@ describe('pruebas en Counter.js', () => {
 
         const btninput = screen.getByRole('spinbutton')
         fireEvent.input(btninput,{target:{value:10}})
+
+        const btnset = screen.getByRole('button', {  name: "establece"})
+        
     });
 });
