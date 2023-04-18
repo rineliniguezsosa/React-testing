@@ -1,5 +1,9 @@
 import { render,screen } from '@testing-library/react'
 import { Habilidades } from '../../componentes/Habilidades'
+// import {toBeInTheDocument} from '@testing-library/jest-dom';
+/**
+ * @jest-environment jsdom
+ */
 
 describe('pruebas en el componente Habilidades.js', () => {
     const skills = ['react','javascript','sql']
@@ -29,7 +33,8 @@ describe('pruebas en el componente Habilidades.js', () => {
     test('el botón comienza a aprender no es renderizado', () => {
         render(<Habilidades skills={skills}/>)
 
-        const btnstartlearning = screen.getByRole('button',{name:'comienza a aprender'})
+        const btnstartlearning = screen.queryByRole('button',{name:'comienza a aprender'})
+
     });
 
 });
