@@ -37,6 +37,7 @@ describe('pruebas en Counter.js', () => {
         fireEvent.input(btninput,{target:{value:10}})
 
         const btnset = screen.getByRole('button', {  name: "establece"})
-        
+        fireEvent.click(btnset)
+
     });
 });
