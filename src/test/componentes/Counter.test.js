@@ -21,5 +21,8 @@ describe('pruebas en Counter.js', () => {
 
     test('renderiza la cuenta en 1', () => {
         render(<Counter></Counter>)
+
+        const btnincrement = screen.getByRole('button', {name:"incrementar"})
+        
     });
 });
