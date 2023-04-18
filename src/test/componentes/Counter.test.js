@@ -29,4 +29,8 @@ describe('pruebas en Counter.js', () => {
         
         expect(headingelement).toBe("1");
     });
+
+    test('renderiza la cuenta en 10 cuando selecciona el boton establece', () => {
+        
+    });
 });
