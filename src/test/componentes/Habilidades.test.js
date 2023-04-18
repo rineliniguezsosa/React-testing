@@ -38,4 +38,8 @@ describe('pruebas en el componente Habilidades.js', () => {
         expect(btnstartlearning).toBeFalsy();
     });
 
+    test('comienza a aprender button eventualmente es mostrado', () => {
+        
+    });
+
 });
