@@ -35,6 +35,7 @@ describe('pruebas en el componente Habilidades.js', () => {
 
         const btnstartlearning = screen.queryByRole('button',{name:'comienza a aprender'})
 
+        expect(btnstartlearning).toBeFalsy();
     });
 
 });
