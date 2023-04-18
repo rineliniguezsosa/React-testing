@@ -10,4 +10,8 @@ describe('pruebas en Counter.js', () => {
 
         expect(headingelement).toBeTruthy();
     });
+
+    test('renderiza la cuenta en cero', () => {
+        
+    });
 });
