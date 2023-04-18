@@ -18,4 +18,8 @@ describe('pruebas en Counter.js', () => {
 
         expect(headingelement).toBe("0");
     });
+
+    test('renderiza la cuenta en 1', () => {
+        
+    });
 });
