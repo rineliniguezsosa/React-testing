@@ -27,5 +27,6 @@ describe('pruebas en Counter.js', () => {
 
         const headingelement = screen.getByRole('heading').textContent
         
+        expect(headingelement).toBe("1");
     });
 });
