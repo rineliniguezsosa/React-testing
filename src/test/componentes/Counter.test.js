@@ -31,6 +31,6 @@ describe('pruebas en Counter.js', () => {
     });
 
     test('renderiza la cuenta en 10 cuando selecciona el boton establece', () => {
-        
+        render(<Counter></Counter>)
     });
 });
