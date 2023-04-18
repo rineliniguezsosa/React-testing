@@ -40,6 +40,7 @@ describe('pruebas en Counter.js', () => {
         fireEvent.click(btnset)
 
         const headingelement = screen.getByRole('heading').textContent
-
+        
+        expect(headingelement).toBe("10");
     });
 });
