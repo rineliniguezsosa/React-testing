@@ -7,5 +7,7 @@ describe('pruebas en Counter.js', () => {
         render(<Counter></Counter>)
 
         const headingelement = screen.getByRole('heading')
+
+        expect(headingelement).toBeTruthy();
     });
 });
