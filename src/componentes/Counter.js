@@ -9,6 +9,7 @@ export const Counter = () => {
         <h1>{cuenta}</h1>
         <button onClick={()=> setCuenta(cuenta+1)}>incrementar</button>
         <input type="number" name="cantidad" value={cantidad} onChange={(event)=> setCantidad(parseInt(event.target.value))}></input>
+        <button onClick={()=> setCuenta(cantidad)}>establece</button>
     </div>
   )
 }
