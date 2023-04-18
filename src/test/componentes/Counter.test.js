@@ -39,5 +39,7 @@ describe('pruebas en Counter.js', () => {
         const btnset = screen.getByRole('button', {  name: "establece"})
         fireEvent.click(btnset)
 
+        const headingelement = screen.getByRole('heading').textContent
+
     });
 });
