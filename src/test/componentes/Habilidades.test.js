@@ -1,9 +1,6 @@
-import { render,screen } from '@testing-library/react'
+import { render,screen,logRoles } from '@testing-library/react'
 import { Habilidades } from '../../componentes/Habilidades'
-// import {toBeInTheDocument} from '@testing-library/jest-dom';
-/**
- * @jest-environment jsdom
- */
+
 
 describe('pruebas en el componente Habilidades.js', () => {
     const skills = ['react','javascript','sql']
