@@ -39,7 +39,7 @@ describe('pruebas en el componente Habilidades.js', () => {
     });
 
     test('comienza a aprender button eventualmente es mostrado', () => {
-        
+        render(<Habilidades skills={skills}/>)
     });
 
 });
