@@ -3,6 +3,13 @@ import { useState,useEffect } from 'react';
 
 export const Habilidades = ({skills}) => {
   const [isloggin, setIsloggin] = useState(false)
+
+  useEffect(() => {
+    setTimeout(() => {
+      setIsloggin(true)
+    }, 500);
+  }, [])
+  
   return (
     <>
     <ol>
