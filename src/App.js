@@ -1,10 +1,10 @@
-import { Aplication } from './componentes/Aplication';
+// import { Aplication } from './componentes/Aplication';
 import { Counter } from './componentes/Counter';
 
 function App() {
   return (
     <div>
-      <Aplication></Aplication>
+      <Counter></Counter>
     </div>
   );
 }
