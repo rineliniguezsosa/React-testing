@@ -7,6 +7,10 @@ export const useCounter = (cuentainicial = 0) => {
   const increment = () =>{
     setCount(count+1)
   }
+
+  const decrement = () =>{
+    setCount(count-1)
+  }
   return {
 
   }
