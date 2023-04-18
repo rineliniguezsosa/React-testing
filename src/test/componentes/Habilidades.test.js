@@ -42,6 +42,8 @@ describe('pruebas en el componente Habilidades.js', () => {
         render(<Habilidades skills={skills}/>)
 
         const startlearningbtn = await screen.findByRole('button',{name:'comienza a aprender'})
+
+        expect(startlearningbtn).toBeTruthy();
     });
 
 });
