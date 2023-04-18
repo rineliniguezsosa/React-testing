@@ -25,5 +25,7 @@ describe('pruebas en Counter.js', () => {
         const btnincrement = screen.getByRole('button', {name:"incrementar"})
         fireEvent.click(btnincrement)
 
+        const headingelement = screen.getByRole('heading').textContent
+        
     });
 });
