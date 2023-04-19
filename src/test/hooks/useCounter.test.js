@@ -16,6 +16,6 @@ describe('pruebas en useCounter hook', () => {
     });
 
     test('la cuenta debe de incrementar', () => {
-        
+        const { result } = renderHook(useCounter)
     });
 });
