@@ -12,6 +12,8 @@ export const useCounter = (cuentainicial = 0) => {
     setCount(count-1)
   }
   return {
-
+    count,
+    increment,
+    decrement
   }
 }
