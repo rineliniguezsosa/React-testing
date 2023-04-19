@@ -8,4 +8,8 @@ describe('pruebas en useCounter hook', () => {
        
         expect(result.current.count).toBe(0);
     });
+
+    test('debe de renderizar y pasar el valor de la cuenta', () => {
+        
+    });
 });
