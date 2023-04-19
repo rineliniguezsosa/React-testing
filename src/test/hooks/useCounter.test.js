@@ -10,6 +10,8 @@ describe('pruebas en useCounter hook', () => {
     });
 
     test('debe de renderizar y pasar el valor de la cuenta', () => {
-        
+        const { result } = renderHook(useCounter,{initialProps:10})
+       
+       
     });
 });
