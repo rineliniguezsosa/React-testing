@@ -19,5 +19,7 @@ describe('pruebas en useCounter hook', () => {
         const { result } = renderHook(useCounter)
 
         act(()=> result.current.increment())
+
+        expect(result.current.count).toBe(1);
     });
 });
