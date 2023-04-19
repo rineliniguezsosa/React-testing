@@ -14,4 +14,8 @@ describe('pruebas en useCounter hook', () => {
        
         expect(result.current.count).toBe(10);
     });
+
+    test('la cuenta debe de incrementar', () => {
+        
+    });
 });
