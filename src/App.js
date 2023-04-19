@@ -7,7 +7,7 @@ import { Travel } from './componentes/Travel';
 function App() {
   return (
     <div>
-      <JumboTron></JumboTron>
+      <Travel></Travel>
     </div>
   );
 }
