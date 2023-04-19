@@ -18,6 +18,6 @@ describe('pruebas en useCounter hook', () => {
     test('la cuenta debe de incrementar', () => {
         const { result } = renderHook(useCounter)
 
-        act(()=> result.current.increment)
+        act(()=> result.current.increment())
     });
 });
