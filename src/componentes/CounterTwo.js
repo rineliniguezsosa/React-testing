@@ -1,7 +1,10 @@
 
 
-export const CounterTwo = () => {
+export const CounterTwo = ({count,handleincrement}) => {
   return (
-    <div>CounterTwo</div>
+    <div>
+        <h1>{count}</h1>
+        <button onClick={handleincrement}>incrementar</button>
+    </div>
   )
 }
