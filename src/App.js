@@ -9,7 +9,7 @@ import { fakeEmployees } from './data/fakeEmployees';
 function App() {
   return (
     <div>
-      <Table></Table>
+      <Table employees={fakeEmployees}></Table>
     </div>
   );
 }
