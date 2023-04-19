@@ -1,10 +1,11 @@
 // import { Aplication } from './componentes/Aplication';
-import { Counter } from './componentes/Counter';
+//import { Counter } from './componentes/Counter';
+import { JumboTron } from './componentes/JumboTron';
 
 function App() {
   return (
     <div>
-      <Counter></Counter>
+      <JumboTron></JumboTron>
     </div>
   );
 }
