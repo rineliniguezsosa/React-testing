@@ -10,5 +10,8 @@ describe('pruebas en CounterTwo.js', () => {
         const btnincrmementar = screen.getByRole('button',{name:'incrementar'})
 
         fireEvent.click(btnincrmementar)
+
+        expect(incrementhandler).toHaveBeenCalledTimes(1);
+       
     });
 });
