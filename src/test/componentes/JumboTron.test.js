@@ -3,6 +3,6 @@ import { JumboTron } from '../../componentes/JumboTron'
 
 describe('pruebas en JumboTron.js', () => {
     test('se muestra el titulo', () => {
-        
+        render(<JumboTron></JumboTron>)
     });
 });
