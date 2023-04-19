@@ -8,7 +8,7 @@ import { Table } from './componentes/Table';
 function App() {
   return (
     <div>
-      <Travel></Travel>
+      <Table></Table>
     </div>
   );
 }
