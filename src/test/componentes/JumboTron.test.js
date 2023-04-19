@@ -5,5 +5,7 @@ import '@testing-library/jest-dom/extend-expect'
 describe('pruebas en JumboTron.js', () => {
     test('se muestra el titulo', () => {
         render(<JumboTron></JumboTron>)
+
+        expect(screen.getByRole('heading', {  name: /welcome to our site!/i})).toBeInTheDocument()
     });
 });
